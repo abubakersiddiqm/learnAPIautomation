@@ -2,13 +2,13 @@ package contactlist;
 
 import io.cucumber.datatable.dependency.com.fasterxml.jackson.core.JsonProcessingException;
 import io.cucumber.datatable.dependency.com.fasterxml.jackson.databind.ObjectMapper;
-import io.cucumber.datatable.dependency.com.fasterxml.jackson.databind.ObjectWriter;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import org.json.JSONObject;
 import org.testng.annotations.Test;
+import pojoClass.AddContact;
 
 import java.util.HashMap;
 

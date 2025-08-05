@@ -1,4 +1,4 @@
-package contactlist;
+package pojoClass;
 
 public class AddContact {
 
